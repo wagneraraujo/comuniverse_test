@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-
+import { Button } from '../components/Button'
+import { theme } from '../styles/theme'
+import {AiOutlineHome} from "react-icons/ai"
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +15,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      teste
+
+
+      
+      <Button bg={theme.colors.primary} color={theme.colors.light_gray} text="Aqui botao" icon={<AiOutlineHome/>} />
 
 
       
