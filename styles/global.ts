@@ -35,6 +35,9 @@ body {
 h1,h2,h3,h4,h5{
 	font-weight: 600;
 }
+a,span,small,li {
+	font-family: 'Source Code Pro', monospace;
+}
 ol, ul {
 	list-style: none;
 }
@@ -50,8 +53,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
 
 `
