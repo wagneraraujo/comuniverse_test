@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Button } from '../components/Button'
 import { theme } from '../styles/theme'
 import {AiOutlineHome} from "react-icons/ai"
+import { TopHeader } from '../components/TopHeader'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Test PJ" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <TopHeader />
 
 
 
